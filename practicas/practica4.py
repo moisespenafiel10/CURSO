@@ -1,8 +1,15 @@
-print("calculadora de indice de masa corporal ")
+vocales='aeiouAEIOU'
 
-peso = float(input("peso en Kg : "))
-altura = float(input("talla en m : "))
+ingresaV=input('ingrese vocal : ')
+if len (ingresaV)==1 :
 
-imc = peso/altura**2
-print (imc)
+    if ingresaV in vocales :
+        print('es una vocal minuscula')
+    else:
+        print('no es una vocal ni minuscula ni mayuscula')
+else :
+    print('ingrese solo un caracter')
+
+
+    
 
