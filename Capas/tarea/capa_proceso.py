@@ -7,7 +7,7 @@ def getElements(lista: list) -> list:
     return lista
 
 
-def checkDisco(lista):
+def checkDisco(lista: list) -> tuple[str, int] | tuple[None, None]:
     indice, palabra = None, None
     for texto in range(0, len(lista)):
         if lista[texto]== 'disco':
