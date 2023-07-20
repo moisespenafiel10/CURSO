@@ -17,11 +17,11 @@ a+= 10 ## a = a+10
 ##operadores con STRING
 # combinacin de cadenas (concatenacion)
  
- letar = 'hola' + ' ' + 'a todos'
- print (letra)
-#repetir cadenas
-cadena = 'hola'*5
-print(cadena)
+#  letar = 'hola' + ' ' + 'a todos'
+#  print (letra)
+# repetir cadenas
+# cadena = 'hola'*5
+# print(cadena)
 
 ##obtener una cadena en especifico 
 obtenerCadena='hola'

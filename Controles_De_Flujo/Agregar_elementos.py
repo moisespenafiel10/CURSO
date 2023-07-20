@@ -5,4 +5,4 @@ while True:
     if dato == "si":
         break
     lista.append(dato)
-print(lista)
+print(lista)    
