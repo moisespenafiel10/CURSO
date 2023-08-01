@@ -60,17 +60,53 @@
 # LA FUNCION TENDR que retornar un nuvo array con todos los numeros pares que existen 
 
 
-lista = [1,2,3,4,5,6,7,8,9,10]
-def numpar (lista:list) -> list:
-  newList=[]
-  for _ , num in enumerate(lista):
-      if num % 2 == 0:
-          newList.append(num)
+# lista = [1,2,3,4,5,6,7,8,9,10]
+# def numpar (lista:list) -> list:
+#   newList=[]
+#   for _ , num in enumerate(lista):
+#       if num % 2 == 0:
+#           newList.append(num)
   
-  return newList
+#   return newList
 
-print (numpar(lista))
+# print (numpar(lista))
+
+# el objeto con clave y valor 
+
+# objeto = {'alumno':'Jory','edad':50,'amigos':['mirella','antony']}
+# objeto  ['alumno'] ='moises'
+# objeto  ['edad'] = 25
+# objeto  ['sexo'] = 'todos los dias'
+# lista=[{'nombre':'jory'},{'nombre':'moises'},{'nombre':'edwin'}]
+# for indice,list in enumerate(lista):
+    
+#   print(indice)
+
+# dato_alumno = {}
+# dato_alumno  ['Nombre'] = input('ingrese nombre :')
+# dato_alumno  ['apellido'] = input('ingrese apellido :')
+# dato_alumno  ['edad'] = int(input('ingrese edad :'))
+# dato_alumno  ['sexo'] = input('ingrese sexo :')
+
+# print (dato_alumno)
+
+# crear una funcion agregar dos objetos en una lista un objeto describiento u perrito y el otro objeto un gato
+
+lista = []
+while True :
+    objeto ={}
+    objeto['animal'] = input('ingrese nombre de la mascota :')
+    objeto['edad'] = int(input('ingrese edad de la mascota :'))
+    while len(objeto['foodFavorite'])<3:
+      objeto.['foodFavorite'] = []
+        
+    lista.append(objeto)
+    opciones = input('salir (s) o continuar (c) ')
+    if opciones =='s':
+      break
+        
 
 
+print(lista) 
 
     
