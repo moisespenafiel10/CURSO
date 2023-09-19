@@ -201,6 +201,26 @@ print(lista)
 > **Observacion** -
 Tambien podemos hacer uso de la funcion print( ) para retornar un mensaje en nuestra funcion
 
+**Existen dos tipos de funciones :**
+
+Funciones sin parametro
+```python
+def saludo():
+    print('hola este es un saludo')
+
+# como hacemos uso de la funcion ??
+# nombre de la funcion y parentesis
+saludo()
+``` 
+**Funciones con parametros :**
+```python
+def mi_print(texto):
+    print(texto)
+print('hola este es print de python')
+mi_print('hola este es mi print creado')
+```
+
+
 
 
 
