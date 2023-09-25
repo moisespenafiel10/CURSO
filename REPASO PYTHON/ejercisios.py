@@ -25,25 +25,57 @@
     # crear un programa que me pida 5 veces  un nombre y por cada vez que lo pida muestre 
     # la cantidad de veces que ingreso el nombre
 # Crear un diccionario vacío para almacenar los nombres y sus frecuencias
-nombres = {}
-for i in range(1,6):
-    nombre = input("Ingrese un nombre: ")
-    print(f"Ha ingresado el nombre {i} veces el nombre.")
+# nombres = {}
+# for i in range(1,6):
+#     nombre = input("Ingrese un nombre: ")
+#     print(f"Ha ingresado el nombre {i} veces el nombre.")
 
 
 # crear un programa que pida un numero y lo evalue con el numero premiado si el numero ingresado
 # es el premiado el programa finalizara si el numero ingresado es incorrecto el programa seguira 
 # pidiendo el nuemero premiado
 
-numero_ganador = 50
-condicion =True
-while condicion:
-    numero_ingresado = int(input('ingrese numero : '))
-    if numero_ingresado == numero_ganador:
-        print('ganaste')
-        break
-    else:
-        print('sigue intentando')
+# numero_ganador = 50
+# condicion =True
+# while condicion:
+#     numero_ingresado = int(input('ingrese numero : '))
+#     if numero_ingresado == numero_ganador:
+#         print('ganaste')
+#         break
+#     else:
+#         print('sigue intentando')
+
+
+# crear una funcion  por cada operador aritmetico que resiva dos parametros y 
+#RETORNE EL RESULTADO DE LA OPRACION ojo crearse una funcion que nos permita imprimir el resultado 
+def resultado(numero):
+    print(numero)
+resultado('')
+def suma (a,b) :
+    numero1 = int(input('ingrese numero : '))
+    numero2 = int(input('ingrese segundo numero : '))
+    sum = numero1 - numero2
+    resultado(sum)   
+suma() 
+def resta (a,b) :
+    numero1 = int(input('ingrese numero : '))
+    numero2 = int(input('ingrese segundo numero : '))
+    resta = numero1 - numero2
+    resultado(resta)   
+resta() 
+def dividir (a,b) :
+    numero1 = int(input('ingrese numero : '))
+    numero2 = int(input('ingrese segundo numero : '))
+    divicion = numero1 + numero2
+    resultado(divicion)   
+dividir() 
+def multiplicacion (a,b) :
+    numero1 = int(input('ingrese numero : '))
+    numero2 = int(input('ingrese segundo numero : '))
+    mult = numero1 * numero2
+    resultado(mult)   
+multiplicacion() 
+
 
 
 
