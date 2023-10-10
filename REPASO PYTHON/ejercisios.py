@@ -47,7 +47,7 @@
 
 
 # 5.- crear una funcion  por cada operador aritmetico que resiva dos parametros y 
-#RETORNE EL RESULTADO DE LA OPRACION ojo crearse una funcion que nos permita imprimir el resultado 
+# RETORNE EL RESULTADO DE LA OPRACION ojo crearse una funcion que nos permita imprimir el resultado 
 # def resultado(numero):
 #     print(numero)
 # resultado('')
@@ -77,39 +77,39 @@
 # multiplicacion() 
 
 # Escribe una funcion que reciba un numero positvo y devuelva su factorial 
-def factorial(n):
+# def factorial(n):
     
-    if n < 0:
-        return "El factorial no está definido para números negativos"
+#     if n < 0:
+#         return "El factorial no está definido para números negativos"
     
-    if n == 0:
-        return 1
+#     if n == 0:
+#         return 1
     
-    else:
-        return n * factorial(n - 1)
+#     else:
+#         return n * factorial(n - 1)
 
-numero = 5
-resultado = factorial(numero)
-print(f"El factorial de {numero} es {resultado}")
+# numero = 5
+# resultado = factorial(numero)
+# print(f"El factorial de {numero} es {resultado}")
 
 
 # Escrbir una funcion que reciba como parametros una lista de numeros y retorne una lista con cada numero 
 # elevado al cuadrado 
 
-def elevar_al_cuadrado(lista_numeros):
+# def elevar_al_cuadrado(lista_numeros):
     
-    lista_resultado = [x ** 2 for x in lista_numeros]
-    return lista_resultado
+#     lista_resultado = [x ** 2 for x in lista_numeros]
+#     return lista_resultado
 
 
-numeros = [1, 2, 3, 4, 5]
-resultado = elevar_al_cuadrado(numeros)
-print("Lista original:", numeros)
-print("Lista con los números elevados al cuadrado:", resultado)
+# numeros = [1, 2, 3, 4, 5]
+# resultado = elevar_al_cuadrado(numeros)
+# print("Lista original:", numeros)
+# print("Lista con los números elevados al cuadrado:", resultado)
 
 
 #Escrbir un programa que reciba una cadena de caracteres y devuelva un objeto con cada palabra 
-# que continue y su frecuencia
+# que contiene y su frecuencia
 
 def contar_palabras(cadena):
     palabras = cadena.split() 
@@ -130,7 +130,7 @@ def contar_palabras(cadena):
     return frecuencias
 
 
-cadena = "Esta es una cadena de prueba. Una cadena es solo una secuencia de palabras, pero es importante."
+cadena = "esto no es una cadena de pruba "
 frecuencias = contar_palabras(cadena)
 
 
