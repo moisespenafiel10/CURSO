@@ -101,50 +101,50 @@
 # print("Almacenamiento:", mi_pc.almacenamiento)
 
 # haciendo uso de la POO crear un objeto para una impresora 
-class Impresora:
-    def controlar(self, opcion):
-        if opcion == 1:
-            self.encender()
-        elif opcion == 2:
-            self.apagar()
-        else:
-            print("Opción no válida. Usa 1 para encender y 2 para apagar.")
-    def encender(self):
-        self.encendida = True
-        print("La impresora se ha encendido.")
+# class Impresora:
+#     def controlar(self, opcion):
+#         if opcion == 1:
+#             self.encender()
+#         elif opcion == 2:
+#             self.apagar()
+#         else:
+#             print("Opción no válida. Usa 1 para encender y 2 para apagar.")
+#     def encender(self):
+#         self.encendida = True
+#         print("La impresora se ha encendido.")
 
-    def apagar(self):
-        self.encendida = False
-        print("La impresora se ha apagado.")
+#     def apagar(self):
+#         self.encendida = False
+#         print("La impresora se ha apagado.")
 
-    def imprimir(self, documento):
-        if self.encendida:
-            print(f"Imprimiendo '{documento}'...")
-        else:
-            print("No puedes imprimir, la impresora está apagada.")
+#     def imprimir(self, documento):
+#         if self.encendida:
+#             print(f"Imprimiendo '{documento}'...")
+#         else:
+#             print("No puedes imprimir, la impresora está apagada.")
     
-    def controlar(self, opcion):
-        if opcion == 1:
-            self.encender()
-        elif opcion == 2:
-            self.apagar()
-        else:
-            print("Opción no válida. Usa 1 para encender y 2 para apagar.")
+#     def controlar(self, opcion):
+#         if opcion == 1:
+#             self.encender()
+#         elif opcion == 2:
+#             self.apagar()
+#         else:
+#             print("Opción no válida. Usa 1 para encender y 2 para apagar.")
 
 # Crear un objeto de la clase Impresora
-mi_impresora = Impresora()
+# mi_impresora = Impresora()
 
 # Encender la impresora
-mi_impresora.encender()
+# mi_impresora.encender()
 
 # Imprimir un documento
-mi_impresora.imprimir("Documento1.txt")
+# mi_impresora.imprimir("Documento1.txt")
 
 # Apagar la impresora
-mi_impresora.apagar()
+# mi_impresora.apagar()
 
 # Intentar imprimir después de apagar
-mi_impresora.imprimir("Documento2.txt")
+# mi_impresora.imprimir("Documento2.txt")
 
 
 
