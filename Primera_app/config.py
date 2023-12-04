@@ -1,7 +1,7 @@
 import datetime 
-COLOR_FONDO_PRIMARIO="#004d4d"
+COLOR_FONDO_PRIMARIO="#0080ff"
 COLOR_FONDO_SECUNDARIO="b3daff"
-COLOR_BOTON="#52c9dc"
+COLOR_BOTON="#0059b3"
 TITULO_APP="App de Contactos de mochi"
 date=datetime.datetime.now()
 HORA_ACTUAL=f"fecha: {date.day}-{date.month}-{date.year}, hora:{date.hour}:{date.minute}"

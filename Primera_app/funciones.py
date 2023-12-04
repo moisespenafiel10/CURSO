@@ -23,13 +23,13 @@ def f_eliminar(ventana):
 def f_actualizar(ventana):
     if ventana.nombre_texto.get()=="":
         print("que chucha voy a utilizar si no hay nada")
-        showerror(title="SIN DATOS",message="eres un huevon no hay nada para actualizar")
+        showerror(title="SIN DATOS",message=" no hay nada para actualizar")
     else:
         nombre=ventana.nombre_texto.get()
         apellidos=ventana.apellidos_texto.get()
         celular=ventana.celular_texto.get()
         elem_actualizar=ventana.tabla_datos.selection()
-        mensaje=askyesno(title="ACTUALIZAR",message="estas seguro que deseas actualizar esta hvda")
+        mensaje=askyesno(title="ACTUALIZAR",message="estas seguro que deseas actualizar")
     if mensaje ==True:
         f_limpiar(ventana)
         ventana.tabla_datos.selection_remove(elem_actualizar)
