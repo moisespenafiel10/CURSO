@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import ttk
 from config import *
-from funciones import *
+from funcionesss import *
 class InterfazApp(Tk):
     def  __init__(self):
         super().__init__()

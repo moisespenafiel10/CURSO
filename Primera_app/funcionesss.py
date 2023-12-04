@@ -1,3 +1,4 @@
+
 from tkinter import *
 from tkinter.messagebox import *
 def f_limpiar(ventana):
@@ -41,15 +42,16 @@ def f_actualizar(ventana):
 def f_dobleClick(ventana,event):
     elem_actualizar=ventana.tabla_datos.selection()
     captura_datos=ventana.tabla_datos.item(elem_actualizar)
+    print(captura_datos)
     mensaje=askyesnocancel(title="ACTULAIZAR",message="desea actualizar los datos")
-    if mensaje== True:
-        nombre=captura_datos["text"]
-        apellido=captura_datos["values"][0]
-        celular=captura_datos["values"][1]
+    if mensaje == True:
+        nombre = captura_datos['text']
+        apellidos = captura_datos['values'][0]
+
+        celulular = captura_datos['values'][1]
         ventana.nombre_texto.insert(0,nombre)
-        ventana.apelldios_texto.insert(0,apellido)
-        ventana.celular_texto.insert(0,celular)
-        ventana.tabla_datos.selection_remove(elem_actualizar)
+        ventana.apellidos_texto.insert(0,apellidos)
+        ventana.celular_texto.insert(0,celulular)
     else:
         showinfo(title="ACTUALIZAR",message="ningun registro seleccionado para actualizacion")
         ventana.tabla_datos.selection_remove(elem_actualizar)
