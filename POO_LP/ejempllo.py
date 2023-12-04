@@ -111,7 +111,7 @@ gerente=Tiendas_comerciales()
 # pprint(gerente.ruc_nombre(negocios))
 #pprint(gerente.elimina_negocio(negocios,1234))
 gerente.crear_negocio(ruc=518915, nombre="Mochi", categoria=["Burdel", "Las cariñosas"],horario_atencion={"dia": "8am-2pm"}, gerente="Yerald")
-gerente.actualizar_horario(ruc=123456789,horario_atencion={"dia": "9am-6pm"})
+gerente.actualizar_horario(ruc=123456789, horario_atencion={"dia": "9am-6pm"})
 
 # otreo metodo para crear un nuevo negocio 
 # otro metodo para actualizar el horario de atencion
